@@ -1,7 +1,8 @@
 # poLCAに基づく分析手法
  * 作者: 島田さん、ノートブックでの実装: 舘野
 ## 資料
- * 使用するすべてのデータ、プログラム、処理結果を、[attachment:poLCA_set_0.2.zip ここ(v0.2)]からダウンロードできます。
+ * ~~使用するすべてのデータ、プログラム、処理結果を、[attachment:poLCA_set_0.2.zip ここ(v0.2)]からダウンロードできます。~~
+ * 資料はこのリポジトリーです。
 ## 変更履歴
 1. 2017年7月16日: 初版(v0.1)
 1. 2017年7月17日: (v0.2)
@@ -14,8 +15,10 @@
 
  ![](pict/WS000088.JPG)
 
+ * この原文表は、[PPMP](https://github.com/t-magic/SOFT/blob/master/PPMP/PPMP.md)で作成しました。
+
 ## 処理手順
- * Jupyterのノートブックを二つ用います。最初に、poLCA_Py.ipynb([htdocs:poLCA_Py.html 実行例1])から始めます。途中で、poLCA_R.ipynb([htdocs:poLCA_R.html 実行例2])を使用します。その後、元のpoLCA_Py.ipynbにもどります。
+ * Jupyterのノートブックを二つ用います。最初に、[実行例1](poLCA_Py.html)から始めます。途中で、[実行例2](poLCA_R.html)を使用します。その後、元のpoLCA_Py.ipynbにもどります。
 
 ## 処理結果
 ### <font color="Blue">最適な潜在クラス数の確認</font>
@@ -51,7 +54,7 @@
   ![](pict/WS000094.JPG)
 
 ## 参考
-1. [赤池情報量基準AICとベイズ情報量基準BIC - 数学 解決済 | 教えて!goo](https://oshiete.goo.ne.jp/qa/7913311.html)
+* [赤池情報量基準AICとベイズ情報量基準BIC - 数学 解決済 | 教えて!goo](https://oshiete.goo.ne.jp/qa/7913311.html)
 
   ```
   AIC=－2{対数尤度}＋2{モデルパラメータ数}
@@ -67,4 +70,4 @@
   いずれの指標も，当てはまりが良く，なおかつシンプルなモデルが
   志向される指標といえるでしょう。
   ```
-1. [AICとMDLとBIC(赤池 弘次、日本オペレーションズ・リサーチ学会Vol.41_07_375.pdf)](http://www.orsj.or.jp/~archive/pdf/bul/Vol.41_07_375.pdf)
+* [AICとMDLとBIC(赤池 弘次、日本オペレーションズ・リサーチ学会Vol.41_07_375.pdf)](http://www.orsj.or.jp/~archive/pdf/bul/Vol.41_07_375.pdf)
