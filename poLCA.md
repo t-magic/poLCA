@@ -18,7 +18,7 @@
  * この原文表は、[PPMP](https://github.com/t-magic/SOFT/blob/master/PPMP/PPMP.md)で作成しました。
 
 ## 処理手順
- * Jupyterのノートブックを二つ用います。最初に、[実行例1](poLCA_Py.html)から始めます。途中で、[実行例2](poLCA_R.html)を使用します。その後、元のpoLCA_Py.ipynbにもどります。
+ * Jupyterのノートブックを二つ用います。最初に、[実行例1](poLCA_Py.ipynb)から始めます。途中で、[実行例2](poLCA_R.ipynb)を使用します。その後、元のpoLCA_Py.ipynbにもどります。
 
 ## 処理結果
 ### <font color="Blue">最適な潜在クラス数の確認</font>
