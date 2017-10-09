@@ -1,3 +1,3 @@
-# [poLCA_Py.html](poLCA_Py.html)
+# [poLCA_Py.ipynb](poLCA_Py.ipynb)
 
-# [poLCA_R.html](poLCA_R.html)
+# [poLCA_R.ipynb](poLCA_R.ipynb)
